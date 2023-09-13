@@ -1,0 +1,206 @@
+body {
+    font-family: Times New Roman;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: Castellar;
+    color: #0E4596;
+    font-size: 65px;
+}
+h2, h3, h4 {
+	font-family: Times New Roman
+}
+h2 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+a {
+    outline: none;
+    cursor: pointer;
+}
+
+p {
+    margin:1px;
+    padding:0;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.edu {
+  list-style: none;
+}
+ul.rsm {
+  list-style: none;
+}
+ul.ib {
+  list-style: none;  
+  margin-bottom: 0px;
+}
+ul.edu li:before {
+    list-style: none;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 30px;
+    background-image: url('eduSmall3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+ul.ib li:before {
+    list-style: none;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 30px;
+    background-image: url('IBedu1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+ul.rsm li:before {
+    list-style: none;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 30px;
+    background-image: url('RSMedu1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+footer {
+    font-family: 
+    font-size: 12px;
+    padding: 200px 0 50px 0;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    font-family: Times New Roman;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#name {
+    padding-bottom: 20px;
+}
+
+.page-header {
+    border-bottom: 0px;
+}
+
+img {
+    vertical-align: top;
+    padding: 10px
+}
+
+.profile {
+    margin: 0 20px 10px 20px;
+    max-height: 230px;
+}
+
+.paperTitle {
+    font-family: Times New Roman;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section {
+    margin-bottom: 35px;
+}
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 2px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.active, .collapsible:hover {
+  background-color: #f1f1f1;
+}
+
+.content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: white;
+    }
+
+.contentnohide {
+      padding: 0 18px;
+      background-color: white;
+      text-align: justify;
+      font-size: 13px;
+    }
+
+
+/* For desktop: */
+.col-1 {width: 100%;}
+.col-2 {width: 100%; padding: 0 160px;}
+.col-3 {width: 32%;
+ 	  align-items: right;
+ 	  text-align: right;}
+.col-4 {width: 36%;     
+	  margin: 0 auto;
+	  padding: 3px;}
+.col-5 {width: 32%;
+   	  text-align: left}
+
+@media only screen and (max-width: 1300px) {
+.col-2 {width: 100%; 
+	padding: 0;}
+.col-3 {width: 50%;
+	align-items: right;
+ 	  text-align: right;}
+.col-4 {width: 50%;     
+	  margin: 0 auto;
+	  padding: 3px;}
+.col-5 {width: 100%;
+   	  text-align: center;
+	padding-top: 5px}
+h2 { font-size: 25px; }
+h1 { font-size: 50px; }
+  }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+.col-3 {align-items: center;
+	 text-align: center;}
+.col-4 {padding: 50px;}
+.profile {
+    margin: 0 5px 2px 5px;
+    max-height: 400px;
+}
+h2 { font-size: 23px; }
+h1 { font-size: 35px; }
+  }
