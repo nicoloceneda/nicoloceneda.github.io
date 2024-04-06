@@ -1,0 +1,256 @@
+\documentclass[11pt]{article}
+%\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+%\textheight=10in
+\pagestyle{empty}
+%\raggedbottom
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+\urlstyle{same}
+\raggedright
+\usepackage{fullpage}
+
+\addtolength{\oddsidemargin}{-.2in}
+\addtolength{\evensidemargin}{-.2in}
+\addtolength{\textwidth}{.4in}
+
+%\setlength{\topmargin}{2in}
+
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.5in}
+
+%  \renewcommand{\encodingdefault}{cg}
+  %\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newcommand{\tab}{\hspacet *{2em}}
+
+\newcommand{\area}[2]{\vspace*{-9pt} \begin{verse}\textbf{#1}   #2 \end{verse}  }
+\newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
+\newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
+\newcommand{\employer}[3]{{ \textbf{#1} \hfill #2\\ \textbf{\emph{#3}}\\  }}
+\newcommand{\employerwithguide}[4]{{ \textbf{#1} \hfill(#2)\\ \textbf{\emph{#3}}\\ \emph{#4}  }}
+\newcommand{\project}[3]{{ \textbf{#1} (#2)\\ \emph{#3}\\  }}
+\newcommand{\projectnoguide}[2]{{ \textbf{#1} (#2)\\  }}
+\newcommand{\contact}[2]{
+%\vspace*{-8pt}
+\begin{center}
+{\LARGE \scshape {#1}}\\
+%#2 \lineunder
+#2
+\end{center}
+\vspace*{-8pt}
+}
+\newcommand{\sbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{2}\end{picture}\ }
+\newcommand{\lbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{3}\end{picture}\ }
+\newenvironment{achievements}{
+    \begin{list}{$\lbt$}{
+        \topsep 0pt
+        \itemsep 0pt
+        \addtolength{\leftmargin}{-0.1in}
+    }
+}
+{
+    \vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses}[4]{
+ \textbf{#1} \hfill{#2}\\
+    #3\\
+\vspace*{5pt}
+}
+\newcommand{\school}[4]{
+ \textbf{#1} #2 $\bullet$ #3\\
+#4 \\
+}
+\newcommand{\visiting}[4]{
+	\textit{#1} \hfill{#2}\\
+	#3\\
+	\vspace*{5pt}
+}
+
+
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\small
+\smallskip
+\vspace*{-35pt}
+
+\contact{Ryu Matsuura}
+{ryumatsuura@u.northwestern.edu $\sbt$ \url{https://ryumatsuura.github.io}}
+
+%%%%%%%%%%%%
+%% EDUCATION
+%%%%%%%%%%%%
+
+\header{\textbf{Education}}
+\vspace{2mm}
+\schoolwithcourses{Northwestern University}{2025 (\textit{expected})}{\hspace{2mm} Ph.D. in Economics}
+
+\schoolwithcourses{Northwestern University}{2020}{\hspace{2mm} M.A. in Economics}
+
+\schoolwithcourses{Colby College}{2017}{\hspace{2mm} B.A. in Economics (\textit{Honors \& Distinction}) and Mathematical Science (\textit{Distinction)}, \textit{Summa Cum Laude}}
+\hfill{}
+
+\visiting{University of Oxford}{2015-2016}{\hspace{2mm} Visiting Student Programme}
+\hfill{}
+
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%
+%% WORKING PAPERS
+%%%%%%%%%%%%%%%%
+
+\header{\textbf{Working Papers}}
+\vspace{2mm}
+
+\schoolwithcourses{Harnessing Satellite Data to Improve Social Assistance Targeting in the Eastern Caribbean \textnormal{(with Sophia Chen, Flavien Moreau, and Joana Pereira)}}{}{~\vspace{-3mm}}
+
+\schoolwithcourses{Political (Mis)selection: The Role of Historical Institutions \textnormal{(with Shubhro Bhattacharya and Utsav Manjeer)}}{}{~\vspace{0mm}}  
+
+
+
+%%%%%%%%%%%%%%
+%% PUBLICATIONS
+%%%%%%%%%%%%%%
+
+\header{\textbf{Publications}}
+\vspace{2mm}
+\schoolwithcourses{Development Research at High Geographic Resolution: An Analysis of Night Lights, Firms, and Poverty in India Using the SHRUG Open Data Platform \textnormal{(with Sam Asher, Toby Lunt, and Paul Novosad), \textit{World Bank Economic Review} (2021)}}{}{~\vspace{0mm}}  
+\hfill{}
+
+%\schoolwithcourses{Shifted Baselines Reduce Willingness to Pay for Conservation \textnormal{(with Loren McClenachan, Shah Payal, and Sahan Dissanayake), \textit{Frontiers in Marine Science} (2018)}}{}{~\vspace{-3mm}} 
+
+%\schoolwithcourses{The Proposed Park in Maine's North Woods: Preferences of Out-of-State Visitors \textnormal{(with Sahan Dissanayake and Andrew Meyer), \textit{Maine Policy Review} (2016)}}{}{~\vspace{0mm}} 
+
+%%%%%%%%%%%%%%%%
+%% WORK IN PROGRESS
+%%%%%%%%%%%%%%%%
+
+\header{\textbf{Work in Progress}}
+\vspace{2mm}
+
+\schoolwithcourses{Political Implications of Trade Liberalization: Evidence from India \textnormal{(with Sebastian J\"{a}vervall and Roza Khoban)}}{}{~\vspace{-3mm}}
+
+\schoolwithcourses{Populism and Public Services Delivery}{}{~\vspace{0mm}}  
+
+
+%%%%%%%%%%%%%%
+%% RESEARCH EXP
+%%%%%%%%%%%%%%
+
+\header{\textbf{Research Experience}}
+\vspace{2mm}
+\schoolwithcourses{International Monetary Fund}{2023}{\hspace{2mm} Summer Intern in Western Hemisphere Department}
+
+\schoolwithcourses{Northwestern University}{2022-2023}{\hspace{2mm} Research Assistant for Professor Ameet Morjaria}
+
+\schoolwithcourses{Development Data Lab}{2017-2019}{\hspace{2mm} Research Associate}
+\hfill{}
+\vspace{3mm}
+
+%%%%%%%%%%%%%%
+%% TEACHIING EXP
+%%%%%%%%%%%%%%
+
+\header{\textbf{Teaching Experience}}
+\vspace{2mm}
+\schoolwithcourses{Northwestern University}{}{\hspace{2mm} Introduction to Microeconomics \hfill 2023}
+
+\schoolwithcourses{Colby College}{}{\hspace{2mm} Statistics for Economics \hfill 2017 \\ \hspace{2mm} Microeconomic Theory \hfill 2015}
+\hfill{}
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%
+%% PRESENTATIONS
+%%%%%%%%%%%%%%%
+
+\header{\textbf{Presentations}}
+\vspace{2mm}
+
+\begin{tabular}{l @{\hspace{10ex}} l }
+	2023 & Pathways to Development Conference \\
+	2022 & Society for Institutional \& Organizational Economics, European Meeting of Urban Economics \\
+	& Association, Infra4Dev Conference \\
+	2017 & Maine Economic Conference \\
+	2016 & Heartland Environmental and Resource Economic Workshop  \\
+\end{tabular}
+\vspace{2mm}
+\hfill{}
+\vspace{3mm}
+
+
+\clearpage %% PAGE 2 
+
+%%%%%%%%%%
+%% GRANTS
+%%%%%%%%%%
+
+\header{\textbf{Grants, Scholarship, \& Awards}}
+\vspace{2mm}
+
+\begin{tabular}{l @{\hspace{4.5ex}} l }
+2023 & Weiss Fund, with Anton Reinicke and Yasuka Tateishi (\$10,000) \\
+& International Growth Centre Small Research Grant, with Anton Reinicke and Yasuka Tateishi \\
+& (£6,000) \\
+& Private Enterprise Development in Low-Income Countries Exploratory Research Grant, with \\
+ & Anton Reinicke and Yasuka Tateishi (£10,000) \\
+2021-2024 & Japan Student Service Organization Scholarship \\
+2019-2021 & Japan-IMF Scholarship \\
+2017 & Breckenridge Prize (highest GPA among senior economic majors) \\
+& Phi Beta Kappa (top 9\% of senior class) \\
+2016 & Economics Department Prize for Junior with Highest GPA \\
+& Leslie Dougherty Biddle '89 and George Biddle Fund for International Service Learning, \\
+& Internships, and Research \\
+\end{tabular}
+\vspace{2mm}
+\hfill{}
+
+
+
+
+%%%%%%%%%%%%
+%% REFERRING
+%%%%%%%%%%%%
+
+\header{\textbf{Refereeing}}
+\vspace{2mm}
+
+\begin{tabular}{l @{\hspace{0ex}} l }
+ \textit{World Bank Economic Review}
+\end{tabular}
+\vspace{2mm}
+\hfill{}
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%%%
+%% PROFESSRIONAL ACT
+%%%%%%%%%%%%%%%%%%
+
+\header{\textbf{Professional Activities}}
+\vspace{2mm}
+
+\begin{tabular}{l @{\hspace{4.5ex}} l }
+2020-2023 & Northwestern University Economics Ph.D. Mentorship Program \\
+2021 & Northwestern University Development Lunch Seminar Organizer
+\end{tabular}
+\vspace{2mm}
+\hfill{}
+
+
+\end{document}
