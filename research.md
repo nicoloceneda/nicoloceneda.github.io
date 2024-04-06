@@ -6,13 +6,15 @@ slug: /research
 
 ## Working Papers
 
-A Stochastic Monetary Policy Asset Pricing Model (with Harjoat Bhamra)
+A stochastic monetary policy asset pricing model (with Harjoat Bhamra)
 
-The Econometrics of Portfolio Sorts (with Walter Distaso and Valentina Corradi)
+The econometrics of portfolio sorts (with Walter Distaso and Valentina Corradi)
 
 ## Other Projects
 
-Forecasting the Auction Price of Collateralized NPLs: Leveraging Machine Learning and the Real-Time Macroeconomic Dataflow (with Damiano Brigo, Walter Distaso, and Filippo Pellegrino)
+Forecasting the auction price of collateralized NPLs: leveraging machine learning and the real-time macroeconomic dataflow (with Damiano Brigo, Walter Distaso, and Filippo Pellegrino)
+
+Forecasting the volatility of treasury futures using machine learning (with Deutsche Bank)
 
 <!---[Shifted Baselines Reduce Willingness to Pay for
 Conservation](https://ryumatsuura.github.io/files/mmsd_2018_okinawa.pdf){:target="_blank"} 
