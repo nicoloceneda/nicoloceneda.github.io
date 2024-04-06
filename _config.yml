@@ -5,7 +5,7 @@ title: Ryu Matsuura
 description: >- # this means to ignore newlines until "baseurl:"
   PhD student in economics
 baseurl: "/" # the subpath of the site
-url: "https://ryumatsuura.github.io" # the base hostname & protocol for the site
+url: "https://nicoloceneda.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpeg
 google_analytics: "UA-121636368-3"
 
@@ -15,13 +15,13 @@ header:
       slug: /
     - name: Research
     - name: CV
-      slug: "https://ryumatsuura.github.io/files/ryumatsuura_cv.pdf"
+      slug: "https://nicoloceneda.github.io/files/ryumatsuura_cv.pdf"
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      link: mailto:ryumatsuura@u.northwestern.edu
+      link: mailto:nc520@ic.ac.uk
 #    - name: WeChat
 #      value: YourWeChatUsername
 #      link: "#"
@@ -34,7 +34,7 @@ footer:
 #    - name: LinkedIn
 #      link: http://linkedin.com/in/YourLinkedInUsername
     - name: GitHub
-      link: http://github.com/ryumatsuura
+      link: http://github.com/nicoloceneda
 #    - name: Dribbble
 #      link: https://dribbble.com/YourDribbbleUsername
 #    - name: RSS
