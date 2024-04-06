@@ -22,9 +22,7 @@ models to forecast the volatility of Treasury futures.
 <p>
 My hobbies are poker and chess. My favourite food is pizza.
 </p></td>
-    <td><img src="/assets/img/profile-pic.jpeg"
-  width: 400
-  height: 474
-  alt='Mia Immagine'></td>
+    <td>
+    </td>
   </tr>
 </table>
