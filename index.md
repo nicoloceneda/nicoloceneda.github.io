@@ -7,7 +7,7 @@ profile_picture:
   alt: website picture
 ---
 
-</p>
+<p>
 Welcome to the Black Swan, Nicolo Ceneda's webpage.
 </p>
 
