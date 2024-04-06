@@ -162,9 +162,3 @@
 .page-heading {
   font-size: 20px;
 }
-
-.home {
-  display: flex; // Ensures the content is in a flex container
-  flex-direction: row; // Aligns the children in a row
-  align-items: flex-start; // Aligns children to the start of the flex container
-}
