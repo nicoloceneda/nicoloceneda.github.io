@@ -1,13 +1,8 @@
 ---
 layout: home
-profile_picture:
-  src: /assets/img/profile-pic.jpeg
-  width: 400
-  height: 474
-  alt: website picture
----
-
-<p>
+<table>
+  <tr>
+    <td><p>
 Welcome to the Black Swan, Nicolo Ceneda's webpage. I am PhD candidate in Finance at Imperial College London, where I am a member of the <a href="https://sites.google.com/view/imperialassetpricing/home">Asset Pricing Research Group</a>. I conduct research in theoretical asset pricing and applied machine learning with a focus on fixed income securities and financial derivatives. 
 </p>
 
@@ -17,4 +12,11 @@ I hold a BSc in Finance from Bocconi University, a MA in Finance from the Univer
 
 <p>
 My hobbies are poker and chess. My favourite food is pizza.
-</p>
+</p></td>
+    <td><img src="/assets/img/profile-pic.jpeg
+  width: 400
+  height: 474
+  alt="Mia Immagine"></td>
+  </tr>
+</table>
+---
