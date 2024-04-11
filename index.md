@@ -11,7 +11,7 @@ profile_picture:
   <tr>
     <td>
 <p>
-Welcome to the Black Swan, Nicolo Ceneda's webpage. I am PhD candidate in Finance at Imperial College London, where I am a member of the <a href="https://sites.google.com/view/imperialassetpricing/home">Asset Pricing Research Group</a>. I conduct research in theoretical asset pricing and applied machine learning with a focus on fixed income securities and financial derivatives. 
+Welcome to the Black Swan, Nicolo Ceneda's webpage. I am a PhD candidate in Finance at Imperial College London, where I am a member of the <a href="https://sites.google.com/view/imperialassetpricing/home">Asset Pricing Research Group</a>. I conduct research in theoretical asset pricing and applied machine learning with a focus on fixed income securities and financial derivatives. 
 </p>
 
 <p>
