@@ -16,8 +16,6 @@ slug: /research
 
 * Forecasting the volatility of treasury futures using machine learning (with Deutsche Bank)
 
-$\frac{\partial V}{\partial t} + r S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} = r V$
-
 <!---[Shifted Baselines Reduce Willingness to Pay for
 Conservation](https://ryumatsuura.github.io/files/mmsd_2018_okinawa.pdf){:target="_blank"} 
 (with Loren McClenachan, Shah Payal, and Sahan Dissanayake),
