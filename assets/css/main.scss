@@ -33,3 +33,72 @@ $on-laptop: 800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "site", "work", "blog", "post", "404";
+
+// Dark mode styles
+.dark-mode {
+  $text-color-dark: #f5f5f5;
+  $background-color-dark: #333;
+  $brand-color-dark: #bb86fc;
+  $grey-color-dark-theme: #666;
+
+  body {
+    background-color: $background-color-dark;
+    color: $text-color-dark;
+  }
+
+  a {
+    color: $brand-color-dark;
+  }
+
+  .site-header {
+    background-color: lighten($background-color-dark, 5%);
+    border-bottom-color: lighten($background-color-dark, 10%);
+  }
+
+  .page-link {
+    color: $text-color-dark;
+    &:hover {
+      color: lighten($brand-color-dark, 10%);
+    }
+  }
+
+  #dark-mode-toggle {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #777;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  // Example for other elements that might need overrides
+  // .some-element-using-grey {
+  //   border-color: $grey-color-dark-theme;
+  // }
+  //
+  // // Override for elements using $text-color explicitly if not covered by body
+  // h1, h2, h3, h4, h5, h6, .post-title, .site-title {
+  //   color: $text-color-dark;
+  // }
+  //
+  // // Override for elements using $brand-color explicitly
+  // .some-element-using-brand-color {
+  //   color: $brand-color-dark;
+  //   background-color: $brand-color-dark; // if it's a background
+  // }
+  //
+  // // Override for elements using $grey-color, $grey-color-light, $grey-color-dark
+  // .post-meta {
+  //   color: lighten($grey-color-dark-theme, 10%);
+  // }
+  //
+  // // Ensure blockquotes and code blocks are styled appropriately
+  // blockquote {
+  //   border-left-color: $grey-color-dark-theme;
+  //   color: lighten($text-color-dark, 10%);
+  // }
+  //
+  // pre, code {
+  //   border-color: $grey-color-dark-theme;
+  //   background-color: lighten($background-color-dark, 3%);
+  // }
+}

@@ -7,7 +7,8 @@
     <nav class="site-nav">
       <a href="#" class="menu-icon"></a>
 
-      <div class="menu">
+      <div class="menu" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+        <div> <!-- Wrapper for existing links -->
         {% for page in site.header.pages %}
           {% if page.slug and page.slug != "" and page.slug != nil %}
             {% assign page_link = page.slug %}
@@ -19,6 +20,8 @@
             {{ page.name }}
           </a>
         {% endfor %}
+        </div> <!-- End of wrapper for existing links -->
+        <div id="dark-mode-toggle">Toggle</div>
       </div>
     </nav>
   </div>
