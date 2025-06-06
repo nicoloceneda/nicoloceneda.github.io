@@ -6,6 +6,8 @@ slug: /research
 
 ## Working Papers
 
+* Uncertainty in the Term Structure of Interest Rates
+
 * A stochastic monetary policy asset pricing model (with Harjoat Bhamra)
 
 * The econometrics of portfolio sorts (with Walter Distaso and Valentina Corradi)
