@@ -34,6 +34,23 @@ $on-laptop: 800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "site", "work", "blog", "post", "404";
 
+// Dark Mode Toggle Button Styles
+#dark-mode-toggle {
+  padding: 8px 12px;
+  border: 1px solid #ccc; // Light mode border
+  background-color: #f0f0f0; // Light mode background
+  color: #333; // Light mode text
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: $small-font-size; // Use existing SASS variable
+  user-select: none; // Prevent text selection on click
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; // Smooth transitions
+}
+
+#dark-mode-toggle:hover {
+  background-color: #e0e0e0; // Slightly darker on hover for light mode
+}
+
 // Dark mode styles
 .dark-mode {
   $text-color-dark: #f5f5f5;
@@ -63,11 +80,14 @@ $on-laptop: 800px;
   }
 
   #dark-mode-toggle {
-    background-color: #555;
-    color: #fff;
-    border: 1px solid #777;
-    padding: 5px 10px;
-    cursor: pointer;
+    background-color: #555; // Dark mode background
+    color: #fff;           // Dark mode text
+    border-color: #777;     // Dark mode border
+    // Padding and cursor are inherited or already set, but can be overridden if needed
+  }
+
+  #dark-mode-toggle:hover {
+    background-color: #666; // Slightly lighter on hover for dark mode
   }
 
   // Example for other elements that might need overrides
